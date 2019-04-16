@@ -3,14 +3,14 @@ body {
   display: block;
   text-align: center;
   margin: 0px;
-  background: #050605;
+  background: #171919;
   color: #adbcbe;
   filter: blur(0.01rem);
   width: 100%;
+  font-family: 'IBM Plex Serif', serif;
 }
 
 .content {
-  background: #171919;
   display: inline-block;
   padding: 21px;
   width: 640px;
@@ -33,7 +33,7 @@ h3 {
   text-align: center;
   margin: 0;
   padding: 0;
-  font-weight: 100;
+  font-weight: 500;
 }
 
 h1 {
