@@ -26,6 +26,10 @@ body {
   display: inline-block;
 }
 
+img {
+  max-width: 80%;
+}
+
 h1,
 h2,
 h3 {
@@ -48,7 +52,11 @@ h3 {
   font-size: 16px;
 }
 
-p {font-size: 12px;}
+p,
+ul,
+li {
+  font-size: 12px;
+}
 
 a {
   color: #adbcbe;
