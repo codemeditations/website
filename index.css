@@ -5,7 +5,6 @@ body {
   margin: 0px;
   background: #171919;
   color: #adbcbe;
-  filter: blur(0.01rem);
   width: 100%;
   font-family: 'IBM Plex Serif', serif;
 }
@@ -15,6 +14,12 @@ body {
   padding: 21px;
   width: 640px;
   text-align: left;
+}
+
+@media only screen and (max-width: 640px) {
+  .content {
+  width:320px;
+  }
 }
 
 .title {
